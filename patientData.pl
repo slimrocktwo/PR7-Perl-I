@@ -122,6 +122,7 @@ sub newData{
         print "\n\nEnter the patient's ailment(s): ";
         $ailments[$PIN] = <STDIN>;
         print "\n\n\nPatient $firstNames[$PIN] $middleNames[$PIN] $lastNames[$PIN], age $ages[$PIN], has been assigned Patient Id Number $PIN. The patient's ailment(s) is as follows: $ailments[$PIN].";
+        sleep 6;
         $PIN++;
         $userEnteredData = 1;
 }
